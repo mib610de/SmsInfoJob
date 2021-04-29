@@ -1,4 +1,4 @@
-package com.fastcode.smsinfojob;
+package com.fastcode.smsinfojobv2;
 
 import android.os.AsyncTask;
 import android.util.Log;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class RequestApiKeyAsyncTask extends AsyncTask<UserSmsInfo, Void, Boolean> {
+public class UpdateTokenForUserAsyncTask extends AsyncTask<UserSmsInfo, Void, Boolean> {
 
     private Exception exception;
 
@@ -27,7 +27,7 @@ public class RequestApiKeyAsyncTask extends AsyncTask<UserSmsInfo, Void, Boolean
 
             // Step2: Now pass JSON File Data to REST Service
             try {
-                URL url = new URL(Const.ip_remote+"/Menu/api/smsinfouser/requestApiKey");
+                URL url = new URL(Const.ip_remote + "/Menu/api/smsinfouser/updateTokenSmsInfoJob");
                 URLConnection connection = url.openConnection();
                 connection.setDoOutput(true);
                 connection.setRequestProperty("Content-Type", "application/json");

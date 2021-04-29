@@ -1,4 +1,4 @@
-package com.fastcode.smsinfojob;
+package com.fastcode.smsinfojobv2;
 
 import android.content.Context;
 

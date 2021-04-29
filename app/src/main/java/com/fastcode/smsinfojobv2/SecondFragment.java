@@ -1,4 +1,4 @@
-package com.fastcode.smsinfojob;
+package com.fastcode.smsinfojobv2;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -1,4 +1,4 @@
-package com.fastcode.smsinfojob;
+package com.fastcode.smsinfojobv2;
 
 import android.os.Bundle;
 import android.provider.Settings;
@@ -12,9 +12,9 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
 
-import com.google.android.material.snackbar.Snackbar;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class FirstFragment extends Fragment {
 
@@ -29,25 +29,28 @@ public class FirstFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        final String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
-       final EditText email= view.findViewById(R.id.editTextTextEmailAddress);
+        final Pattern VALID_EMAIL_ADDRESS_REGEX =
+                Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
+        final EditText email = view.findViewById(R.id.editTextTextEmailAddress);
 
-        if( email.getText().toString().length() == 0 ) {
+        if (email.getText().toString().length() == 0) {
             email.setError("Email is required");
         }
 
         email.addTextChangedListener(new TextWatcher() {
             public void afterTextChanged(Editable s) {
-                if (!email.getText().toString().matches(emailPattern) && s.length() > 0)
-                {
-                    email.setError("Email is not valid");
-                } else if ( s.length() == 0) {
-                    email.setError( "Email is required" );
+                Matcher matcher = VALID_EMAIL_ADDRESS_REGEX.matcher(email.getText().toString());
+                if (!matcher.find() && s.length() > 0) {
+                    email.setError("Email is not valid!");
+                } else if (s.length() == 0) {
+                    email.setError("Email is required");
                 }
             }
+
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
                 // other stuffs
             }
+
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 // other stuffs
             }
