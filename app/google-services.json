@@ -1,158 +1,34 @@
 {
   "project_info": {
-    "project_number": "16317984892",
-    "firebase_url": "https://msss-fb8d9.firebaseio.com",
-    "project_id": "msss-fb8d9",
-    "storage_bucket": "msss-fb8d9.appspot.com"
+    "project_number": "60611348018",
+    "project_id": "smsinfojob-8e531",
+    "storage_bucket": "smsinfojob-8e531.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:16317984892:android:5847d505a7899163c6d9f9",
+        "mobilesdk_app_id": "1:60611348018:android:d754750a27060a21c7de2b",
         "android_client_info": {
-          "package_name": "com.example.menuappalarm"
+          "package_name": "com.fastcode.smsinfojobv2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "16317984892-srd5m7i03qdff7dr1s119i2eoi3r4jrs.apps.googleusercontent.com",
+          "client_id": "60611348018-44dnhusf33vua4n5qlckrg1c9pt518a6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAyf3en86i4hM6EiYZOV8tyntV3BqlFQGk"
+          "current_key": "AIzaSyB9P25sjC9ZzNeMcL7xNAxnpgV41P0JG5g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "16317984892-sc16t8b2q2t7jfjg355ujb9togv4lomr.apps.googleusercontent.com",
+              "client_id": "60611348018-44dnhusf33vua4n5qlckrg1c9pt518a6.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "16317984892-49khm2lpihj6tslhphq15qa4gdnt5acn.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "net.equestsolutions.QRCart"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:16317984892:android:8b4042f0336aa4c4c6d9f9",
-        "android_client_info": {
-          "package_name": "com.fastcode.smsinfojob"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "16317984892-srd5m7i03qdff7dr1s119i2eoi3r4jrs.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAyf3en86i4hM6EiYZOV8tyntV3BqlFQGk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "16317984892-sc16t8b2q2t7jfjg355ujb9togv4lomr.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "16317984892-49khm2lpihj6tslhphq15qa4gdnt5acn.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "net.equestsolutions.QRCart"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:16317984892:android:48b06683d5816c82",
-        "android_client_info": {
-          "package_name": "com.stenly.menu.restaurant"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "16317984892-mn3rfqubt3v31963fi4op6ifgmo8n8hk.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.stenly.menu.restaurant",
-            "certificate_hash": "9a8af3af76c1b35fd4a2a62897f38d194944a41d"
-          }
-        },
-        {
-          "client_id": "16317984892-srd5m7i03qdff7dr1s119i2eoi3r4jrs.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAyf3en86i4hM6EiYZOV8tyntV3BqlFQGk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "16317984892-sc16t8b2q2t7jfjg355ujb9togv4lomr.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "16317984892-49khm2lpihj6tslhphq15qa4gdnt5acn.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "net.equestsolutions.QRCart"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:16317984892:android:8deb61f2f029edd1",
-        "android_client_info": {
-          "package_name": "de.consulting.stenly.app"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "16317984892-srd5m7i03qdff7dr1s119i2eoi3r4jrs.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAyf3en86i4hM6EiYZOV8tyntV3BqlFQGk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "16317984892-sc16t8b2q2t7jfjg355ujb9togv4lomr.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "16317984892-49khm2lpihj6tslhphq15qa4gdnt5acn.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "net.equestsolutions.QRCart"
-              }
             }
           ]
         }
